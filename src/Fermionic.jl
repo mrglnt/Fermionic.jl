@@ -12,7 +12,7 @@ include("logic_gates.jl")
 include("mixed.jl")
 
 export Op, dim, basis, a, ad, ada, aad, aa, adad, adf, af, vacuum
-export fixed, basis_m,  Op_fixed
+export fixed, basis_m, Op_fixed
 export State, st, ope, typ, rhosp, rhoqsp, non_zero
 export State_fixed, nume, fixed_state, unfixed_state
 export eigensp, ssp, eigenqsp, sqsp, majorization_sp, majorization_qsp, n_avg, coef, rhom, rhomd, rhom2, trp
